@@ -17,3 +17,8 @@ https://learn.adafruit.com/adafruit-dc-and-stepper-motor-hat-for-raspberry-pi
 
 ![adafruit_datasheet](datasheet/2348_ENG_TDS.pdf)
 
+
+**Assembled**
+
+![Adafruit assembled](pictures/adafruit_assembled.jpeg)
+
