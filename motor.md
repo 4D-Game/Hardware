@@ -22,3 +22,12 @@ https://learn.adafruit.com/adafruit-dc-and-stepper-motor-hat-for-raspberry-pi
 
 ![Adafruit assembled](pictures/adafruit_assembled.jpeg)
 
+**Testcode**
+
+```p
+
+from adafruit_motorkit import MotorKit
+kit = MotorKit()
+kit.motor1.throttle = 0.1
+
+```
