@@ -8,3 +8,7 @@
 ## **Control with adafruit motor shield on raspberry pi**+
 
 ![Adafruit Motorshield for dc & stepper motors](pictures/Adafruit_motorshield.jpeg)
+
+**Instruction to set up Motorshield**
+
+https://learn.adafruit.com/adafruit-dc-and-stepper-motor-hat-for-raspberry-pi
