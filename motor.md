@@ -24,7 +24,7 @@ https://learn.adafruit.com/adafruit-dc-and-stepper-motor-hat-for-raspberry-pi
 
 **Testcode**
 
-```p
+```c
 
 from adafruit_motorkit import MotorKit
 kit = MotorKit()
