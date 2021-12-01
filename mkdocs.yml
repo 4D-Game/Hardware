@@ -10,6 +10,7 @@ nav:
       - Game SDK: https://4d-game.github.io/Controller/sdk
       - Gamecontrol SDK: https://4d-game.github.io/Gamecontrol/sdk/
   - Hardware:
+      - Overview: index.md
       - Turrets: turrets.md
       - Motor: motor.md
 
