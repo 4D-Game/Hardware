@@ -1,0 +1,53 @@
+site_name: Hardware
+nav:
+  - Home: https://4d-game.github.io
+  - Coding Style: https://4d-game.github.io/coding-style/cpp/
+  - Game Code:
+      - Controller: https://4d-game.github.io/Controller/
+      - Gamecontrol: https://4d-game.github.io/Gamecontrol/
+  - SDK:
+      - Overview: https://4d-game.github.io/index.md
+      - Game SDK: https://4d-game.github.io/Controller/sdk
+      - Gamecontrol SDK: https://4d-game.github.io/Gamecontrol/sdk/
+  - Hardware:
+      - Turrets: turrets.md
+      - Motor: motor.md
+
+repo_url: https://github.com/4D-Game/Hardware
+repo_name: '4D-Game/Hardware'
+
+theme:
+  name: material
+  language: en
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  features:
+    - navigation.tabs
+    - navigation.top
+  palette:
+    # - scheme: default
+    #   primary: light blue
+    #   toggle:
+    #     icon: material/toggle-switch-off-outline
+    #     name: Switch to dark mode
+    - scheme: slate
+      primary: light blue
+      # toggle:
+      #   icon: material/toggle-switch
+      #   name: Switch to light mode
+
+plugins:
+  - search
+  - mermaid2:
+      arguments:
+        theme: 'dark'
+
+markdown_extensions:
+  - pymdownx.highlight
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid
