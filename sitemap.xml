@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>None</loc>
-         <lastmod>2021-12-01</lastmod>
+         <loc>https://4d-game.github.io/Hardware/</loc>
+         <lastmod>2021-12-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
-         <lastmod>2021-12-01</lastmod>
+         <loc>https://4d-game.github.io/Hardware/motor/</loc>
+         <lastmod>2021-12-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
-         <lastmod>2021-12-01</lastmod>
+         <loc>https://4d-game.github.io/Hardware/turrets/</loc>
+         <lastmod>2021-12-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
