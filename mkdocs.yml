@@ -1,14 +1,13 @@
 site_name: Hardware
+site_url: https://4d-game.github.io/Hardware
+
 nav:
   - Home: https://4d-game.github.io
   - Coding Style: https://4d-game.github.io/coding-style/cpp/
   - Game Code:
       - Controller: https://4d-game.github.io/Controller/
       - Gamecontrol: https://4d-game.github.io/Gamecontrol/
-  - SDK:
-      - Overview: https://4d-game.github.io/index.md
-      - Game SDK: https://4d-game.github.io/Controller/sdk
-      - Gamecontrol SDK: https://4d-game.github.io/Gamecontrol/sdk/
+  - SDK: https://4d-game.github.io/Gamecontrol/sdk/
   - Hardware:
       - Overview: index.md
       - Turrets: turrets.md
