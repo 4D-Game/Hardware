@@ -7,7 +7,7 @@ nav:
   - Game Code:
       - Controller: https://4d-game.github.io/Controller/
       - Gamecontrol: https://4d-game.github.io/Gamecontrol/
-  - SDK: https://4d-game.github.io/Gamecontrol/sdk/
+  - SDK: https://4d-game.github.io/sdk/
   - Hardware:
       - Overview: index.md
       - Turrets: turrets.md
