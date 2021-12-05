@@ -5,6 +5,7 @@ Test with two 2.2 TFT SPI 240x320 Displays and RaspberryPi 3B.
 
 **Setup**
 
+raspi-config -> SPI enable
 
 sudo pip3 install Adafruit-Blinka
 
