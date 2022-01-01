@@ -2,7 +2,7 @@
 
 ## **Middle Tower V1**
 
-![Middle Tower Version 1]("3D models/TumV01.png")
+![Middle Tower Version 1](docs/3D models/Prototyp_geschuetz/full_turret.png)
 
 ## **Middle Tower V1 CAD View**
 
