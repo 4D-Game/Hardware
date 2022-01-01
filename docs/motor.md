@@ -1,10 +1,5 @@
 # **Motor Control**
 
-## **Control with power supply**
-
-1. Ansteuern bis zu einer max Spannung von 9V und einer Stromaufnahme von 350mA
-2. höhere Spannung zu laut und wackelig
-
 ## **Control with adafruit motor shield on raspberry pi**
 
 ![Adafruit Motorshield for dc & stepper motors](pictures/Adafruit_motorshield.jpeg)
@@ -22,7 +17,7 @@ https://learn.adafruit.com/adafruit-dc-and-stepper-motor-hat-for-raspberry-pi
 
 ![Adafruit assembled](pictures/adafruit_assembled.jpeg)
 
-**Testcode**
+**Testcode for a DC motor**
 
 ```c
 
