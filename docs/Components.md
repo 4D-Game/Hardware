@@ -4,9 +4,6 @@
 
 The table below contains list of the electronics components for building the game.
 
-**Wiring**
-
-
 
 | Component | Function |  Quantity |
 | --------------- | --------------- | --------------- |
