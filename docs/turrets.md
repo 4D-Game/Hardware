@@ -17,7 +17,7 @@
 
 **TurretV1**
 
-![3D-Print](pictures/turretsV1.JPG)
+![3D-Print](pictures/turretsV1.jpg)
 
 **TurretV2**
 
