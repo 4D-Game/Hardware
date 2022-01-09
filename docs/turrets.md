@@ -4,28 +4,31 @@
 - all 3D-Models are build with Fusion 360
 
 
-
-
 **Used motor**
 
-- 2x ...
+- 2x Servo motor HS-40 Economy nano servo
+
+**How to build it**
+
+- see video tutorial
 
 
 
 
+**TurretV1**
+
+![3D-Print](pictures/turretsV1.JPG)
+
+**TurretV2**
+
+![3D-Print](pictures/turretsV2.JPG)
+
+**TurretV3**
+
+![3D-Print](pictures/turretsV3.jpg)
+
+**TurretV4**
+
+![3D-Print](pictures/turretsV3.jpg)
 
 
-
-
-
-**GeschuetzV1**
-
-![3D-Print](pictures/GeschuetzV1.JPG)
-
-**GeschuetzV2**
-
-![3D-Print](pictures/GeschuetzV2.JPG)
-
-**Geschuetz-Vollständig**
-
-![3D-Print](pictures/Geschuetz.jpg)
