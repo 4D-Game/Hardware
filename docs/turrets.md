@@ -1,4 +1,23 @@
 
+**General information**
+
+- all 3D-Models are build with Fusion 360
+
+
+
+
+**Used motor**
+
+- 2x ...
+
+
+
+
+
+
+
+
+
 **GeschuetzV1**
 
 ![3D-Print](pictures/GeschuetzV1.JPG)
