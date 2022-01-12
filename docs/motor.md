@@ -18,6 +18,7 @@ https://learn.adafruit.com/adafruit-dc-and-stepper-motor-hat-for-raspberry-pi
 ![Adafruit assembled](pictures/adafruit_assembled.jpeg)
 
 **Git Repository**
+
 https://github.com/adafruit/Adafruit-Motor-HAT-Python-Library.git
 
 
