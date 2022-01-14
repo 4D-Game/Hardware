@@ -8,7 +8,7 @@
 <link href="https://4d-game.github.io/Hardware/motor/" rel="canonical"/>
 <link href="../assets/logo.png" rel="icon"/>
 <meta content="mkdocs-1.2.3, mkdocs-material-7.3.4" name="generator"/>
-<title>Motor - Hardware</title>
+<title>**Motor Control** - Hardware</title>
 <link href="../assets/stylesheets/main.db9e7362.min.css" rel="stylesheet"/>
 <link href="../assets/stylesheets/palette.3f5d1f46.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -46,7 +46,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Motor
+              **Motor Control**
             
           </span>
 </div>
@@ -122,7 +122,7 @@
     </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link md-tabs__link--active" href="..">
+<a class="md-tabs__link" href="..">
         Hardware
       </a>
 </li>
@@ -192,8 +192,8 @@
         SDK
       </a>
 </li>
-<li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" id="__nav_5" type="checkbox"/>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" id="__nav_5" type="checkbox"/>
 <label class="md-nav__link" for="__nav_5">
           Hardware
           <span class="md-nav__icon md-icon"></span>
@@ -210,37 +210,29 @@
       </a>
 </li>
 <li class="md-nav__item">
+<a class="md-nav__link" href="../tower/">
+        Tower
+      </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="../turrets/">
         Turrets
       </a>
 </li>
-<li class="md-nav__item md-nav__item--active">
-<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
-<label class="md-nav__link md-nav__link--active" for="__toc">
-          Motor
-          <span class="md-nav__icon md-icon"></span>
-</label>
-<a class="md-nav__link md-nav__link--active" href="./">
-        Motor
+<li class="md-nav__item">
+<a class="md-nav__link" href="../display/">
+        Displays
       </a>
-<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">
-<span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#control-with-power-supply">
-    Control with power supply
-  </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#control-with-adafruit-motor-shield-on-raspberry-pi">
-    Control with adafruit motor shield on raspberry pi
-  </a>
+<a class="md-nav__link" href="../baseplate/">
+        Base Plate
+      </a>
 </li>
-</ul>
-</nav>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../components/">
+        Components
+      </a>
 </li>
 </ul>
 </nav>
@@ -260,11 +252,6 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#control-with-power-supply">
-    Control with power supply
-  </a>
-</li>
-<li class="md-nav__item">
 <a class="md-nav__link" href="#control-with-adafruit-motor-shield-on-raspberry-pi">
     Control with adafruit motor shield on raspberry pi
   </a>
@@ -280,11 +267,6 @@
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"></path></svg>
 </a>
 <h1 id="motor-control"><strong>Motor Control</strong></h1>
-<h2 id="control-with-power-supply"><strong>Control with power supply</strong></h2>
-<ol>
-<li>Ansteuern bis zu einer max Spannung von 9V und einer Stromaufnahme von 350mA</li>
-<li>höhere Spannung zu laut und wackelig</li>
-</ol>
 <h2 id="control-with-adafruit-motor-shield-on-raspberry-pi"><strong>Control with adafruit motor shield on raspberry pi</strong></h2>
 <p><img alt="Adafruit Motorshield for dc &amp; stepper motors" src="../pictures/Adafruit_motorshield.jpeg"/></p>
 <p><strong>Instruction to set up Motorshield</strong></p>
@@ -293,7 +275,9 @@
 <p><img alt="adafruit_datasheet" src="datasheet/2348_ENG_TDS.pdf"/></p>
 <p><strong>Assembled</strong></p>
 <p><img alt="Adafruit assembled" src="../pictures/adafruit_assembled.jpeg"/></p>
-<p><strong>Testcode</strong></p>
+<p><strong>Git Repository</strong></p>
+<p>https://github.com/adafruit/Adafruit-Motor-HAT-Python-Library.git</p>
+<p><strong>Testcode for a DC motor</strong></p>
 <div class="highlight"><pre><span></span><code><span class="n">from</span><span class="w"> </span><span class="n">adafruit_motorkit</span><span class="w"> </span><span class="n">import</span><span class="w"> </span><span class="n">MotorKit</span><span class="w"></span>
 <span class="n">kit</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">MotorKit</span><span class="p">()</span><span class="w"></span>
 <span class="n">kit</span><span class="p">.</span><span class="n">motor1</span><span class="p">.</span><span class="n">throttle</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.1</span><span class="w"></span>
@@ -307,21 +291,6 @@
           </a>
 </main>
 <footer class="md-footer">
-<nav aria-label="Footer" class="md-footer__inner md-grid">
-<a aria-label="Previous: Turrets" class="md-footer__link md-footer__link--prev" href="../turrets/" rel="prev">
-<div class="md-footer__button md-icon">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
-</div>
-<div class="md-footer__title">
-<div class="md-ellipsis">
-<span class="md-footer__direction">
-                Previous
-              </span>
-              Turrets
-            </div>
-</div>
-</a>
-</nav>
 <div class="md-footer-meta md-typeset">
 <div class="md-footer-meta__inner md-grid">
 <div class="md-footer-copyright">
