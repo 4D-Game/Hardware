@@ -10,8 +10,11 @@ nav:
   - SDK: https://4d-game.github.io/sdk/
   - Hardware:
       - Overview: index.md
+      - Tower: tower.md
       - Turrets: turrets.md
-      - Motor: motor.md
+      - Displays: display.md
+      - Base Plate: baseplate.md
+      - Components: components.md
 
 repo_url: https://github.com/4D-Game/Hardware
 repo_name: '4D-Game/Hardware'
@@ -46,6 +49,9 @@ markdown_extensions:
   - pymdownx.highlight
   - admonition
   - pymdownx.details
+  - attr_list
+  - md_in_html
+  - footnotes
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
