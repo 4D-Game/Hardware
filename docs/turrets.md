@@ -1,34 +1,45 @@
 
-**General information**
+The turrets are controlled by the player. They are used to "shoot" the "comets". In the current setup six turrets are used. 
 
-- all 3D-Models are build with Fusion 360
-
-
-**Used motor**
-
-- 2x Servo motor HS-40 Economy nano servo
-
-**How to build it**
-
-- see video tutorial
+![](pictures/turretV4.jpg)
 
 
 
+## Construction
 
-**TurretV1**
+### Functionality
 
-![3D-Print](pictures/turretsV1.JPG)
+The model used for implementing the turrets was found on Thingiverse. We choosed this model because the design went very well with our initial game idea and the fundamental movements (Horizontal and vertical rotation of the aiming part) were given. As said, the main technical functionality of this Prototype is to rotate horizontal and vertical in order ot give the player a good aiming experience. One is placed below the base of the turret. The other is placed on the right side of the top element. In order to detect if the player hit the comet a IR-Sensor is used. The model which is used returns a binary signal. The sensitivity can be tuned with a screw on the back of the sensor. But for further usage of this model we needed to adapt and add a few things.
 
-**TurretV2**
+### Adaptations and addings to the model
 
-![3D-Print](pictures/turretsV2.jpg)
+This model was not configured for our Servo Motors. Therefore, every 3D-Model that consists part of the motor needed to be changed. For our game, we need something like a gun that can shoot the comets. Therefore the Blaster Model was created.
 
-**TurretV3**
+- Base: New configuration of the middle part. Adapted to fit our servo motor.
+- Base_mount: Creating a little motor winding to fit in the base mount.
+- Servo_bracket: Adapting the servo bracket to fit our servo motor
+- Turret_legs: Added holes for mounting the Turret to the Baseplane
+- Blaster: New Model which held the Laser sensor, In adition two led's are used to display if the player shot (white) and if he hit (green). Both led's are positioned at the tip of the barrel of the turret.
 
-![3D-Print](pictures/turretsV3.jpg)
+(vergleich Fotos von model vorher und nacher?)
 
-**TurretV4**
+## Technical characteristics
 
-![3D-Print](pictures/turretsV3.jpg)
+| Mechanical Device | Action | Description | State |
+| --------------- | --------------- | --------------- | --------------- |
+| Bottom servo motor | Horizontal Turret motion | Joystick full right / full left | +-30° right/left max |
+| Top servo motor | Vertical Turret motion| Joystick full up / full down | +20° top max / -40° bottom max|
+| Blaster | Shooting | RED / GREEN LED |  Blinks every shot / Blinks when hit detected |
+
+
+## Components
+
+For a list of all used components see the Components section.
+
+## Further informations
+
+For informations about controlling the turrets via controller and software solutions please look here
+
+
 
 
