@@ -1,4 +1,5 @@
 
+### Task
 The turrets are controlled by the player. They are used to "shoot" the "comets". In the current setup six turrets are used. 
 
 ![](pictures/turretV4.jpg)
@@ -24,6 +25,12 @@ This model was not configured for our Servo Motors. Therefore, every 3D-Model th
 (vergleich Fotos von model vorher und nacher?)
 
 ## Technical characteristics
+
+### Circuit
+
+![Turrets circuit](circuit/turrets1.png)
+
+### Important motion ratings
 
 | Mechanical Device | Action | Description | State |
 | --------------- | --------------- | --------------- | --------------- |
