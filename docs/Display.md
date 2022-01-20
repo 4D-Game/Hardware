@@ -62,7 +62,7 @@ LED -> 3.3V
 
 ## Components
 
-For a list of all used components see the Components section.
+For a list of all used components see the [Components](Components.md) section.
 
 ## Further informations
 

@@ -54,11 +54,11 @@ This model was not configured for our Servo Motors. Therefore, every 3D-Model th
 
 ## Components
 
-For a list of all used components see the Components section.
+For a list of all used components see the [Components](Components.md) section.
 
-## Further informations
+## Further information's
 
-For informations about controlling the turrets via controller and software solutions please look here
+For more information's about controlling the turrets via controller and software solutions please look [here](4D_Game/Controller/docs/code-references/controls/turrets.md).
 
 
 
