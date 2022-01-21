@@ -14,7 +14,7 @@ For informations about software characteristics and controlling look here.
 
 ## Technical characteristics
 
-### Circuit
+### Circuit (connection to Raspberry-Pi)
 
 ![Display circuit](circuit/display1.png)
 

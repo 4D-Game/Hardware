@@ -7,20 +7,27 @@ The tower is the central element of the playing field. It is used to move the co
 
 ### Functionality
 
+The tower consists of a base and an arm with a comet at each end. The arm can be rotated horizontally and tilted vertically. Both motions are created with a stepper motor. The stepper motors are controlled with the Raspberry Pi using a Adafruit Motor Shield.
 
 
+### Adapted 3D-Models of middle Tower
 
-### Adapted 3D-Models of turrets
-
-
-
-### Adaptations and addings to the model
+![Middle Tower](3D_models/TurmV01.png)
 
 
 
 ## Technical characteristics
 
-### Circuit
+### Circuit (connection to Raspberry-Pi)
+
+![Middle Tower circuit](circuit/middle_tower1.png)
+
+For the connection between motors, motorshield to Raspberry-Pi see [here](https://learn.adafruit.com/adafruit-dc-and-stepper-motor-hat-for-raspberry-pi/stacking-hats)
+
+### Motorshield
+
+![Adafruit motorshield](pictures/Adafruit_mototshield.png)
+![Adafruit assembled](pictures/Adafruit_assembled.png)
 
 
 ### Important motion ratings
@@ -30,7 +37,7 @@ The tower is the central element of the playing field. It is used to move the co
 
 ## Components
 
-For a list of all used components see the Components section.
+For a list of all used components see the [Components](Components.md) section.
 
 ## Further informations
 

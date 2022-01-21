@@ -12,6 +12,13 @@ The turrets are controlled by the player. They are used to "shoot" the "comets".
 
 The model used for implementing the turrets was found on Thingiverse. We choosed this model because the design went very well with our initial game idea and the fundamental movements (Horizontal and vertical rotation of the aiming part) were given. As said, the main technical functionality of this Prototype is to rotate horizontal and vertical in order ot give the player a good aiming experience. One is placed below the base of the turret. The other is placed on the right side of the top element. In order to detect if the player hit the comet a IR-Sensor is used. The model which is used returns a binary signal. The sensitivity can be tuned with a screw on the back of the sensor. But for further usage of this model we needed to adapt and add a few things.
 
+### Previous Prototypes
+
+![Turret V1](pictures/turretV1.JPG)
+![Turret V2](pictures/turretV2.jpg)
+![Turret V3](pictures/turretV3.jpg)
+![Turret V4](pictures/turretV4.jpg)
+
 ### Adapted 3D-Models of turrets
 
 ![](3D_models/Prototyp_geschuetz/base.png)
@@ -39,7 +46,7 @@ This model was not configured for our Servo Motors. Therefore, every 3D-Model th
 
 ## Technical characteristics
 
-### Circuit
+### Circuit (connection ot Raspberry-Pi)
 
 ![Turrets circuit](circuit/turrets1.png)
 
