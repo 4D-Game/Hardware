@@ -69,12 +69,5 @@ For informations about controlling the turrets via controller and software solut
 
 
 
-# **Middle Tower(Comet)**
 
-## **Middle Tower V1**
 
-![Middle Tower Version 1](3D_models/TumV01.png)
-
-## **Middle Tower V1 CAD View**
-
-![Middle Tower Version 1 CAD View](3D_models/TumV01.pdf)

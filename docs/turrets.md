@@ -17,7 +17,6 @@ The model used for implementing the turrets was found on Thingiverse. We choosed
 ![Turret V1](pictures/turretV1.JPG)
 ![Turret V2](pictures/turretV2.jpg)
 ![Turret V3](pictures/turretV3.jpg)
-![Turret V4](pictures/turretV4.jpg)
 
 ### Adapted 3D-Models of turrets
 
