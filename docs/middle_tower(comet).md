@@ -27,7 +27,7 @@ For the connection between motors, motorshield to Raspberry-Pi see [here](https:
 ### Motorshield
 
 ![Adafruit motorshield](pictures/Adafruit_motorshield.jpeg)
-![Adafruit assembled](pictures/Adafruit_assembled.jpeg)
+![Adafruit assembled](pictures/adafruit_assembled.jpeg)
 
 
 ### Important motion ratings
