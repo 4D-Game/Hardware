@@ -18,6 +18,9 @@ For informations about software characteristics and controlling look here.
 
 ![Display circuit](circuit/display1.png)
 
+### 3D-Model of Display bracket
+
+![Display bracket](3D_models/display_halterung.PNG)
 
 ## Test scenarios
 
@@ -66,6 +69,7 @@ For a list of all used components see the [Components](Components.md) section.
 
 ## Further informations
 
+All 3D-Models were done with Fusion360.
 For informations about software characteristics and controlling look here.
 
 

@@ -41,6 +41,7 @@ For a list of all used components see the [Components](Components.md) section.
 
 ## Further informations
 
+All 3D-Models were done with Fusion360.
 For informations about controlling the turrets via controller and software solutions please look here
 
 
