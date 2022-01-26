@@ -1,3 +1,4 @@
+import pygame
 from pygame import mixer
 import time
 
@@ -10,9 +11,11 @@ class Sound:
         """
             Configures the mixer to play and load needed sounds
         """
-        mixer.init()
-        self.shoot_sound = mixer.Sound('/home/pi/sounds_effect/laser-shoot.wav')
-        self.score_sound = mixer.Sound('intro.wav')
+        pygame.init()
+        mixer.init(frequency=44100, size=-16, channels=2, buffer=4096)
+        self.shoot_sound = mixer.Sound('laser.wav')
+        self.start_sound = mixer.Sound('start1.wav')
+        self.win_sound = mixer.Sound('win16.wav')
        
     def play_sound(self, event: int):
         """
@@ -23,9 +26,11 @@ class Sound:
             self.shoot_sound.play()
 
         elif event == 2:
-            self.score_sound.set_volume(10)
-            self.score_sound.play() 
-
+            self.start_sound.set_volume(10)
+            self.start_sound.play() 
+        elif event == 3:
+            self.win_sound.set_volume(10)
+            self.win_sound.play()
 
     def stop_sound(self, event: int):
         """
@@ -34,8 +39,9 @@ class Sound:
         if event == 1:
             self.shoot_sound.stop()
         elif event == 2:
-            self.score_sound.stop() 
-
+            self.start_sound.stop() 
+        elif event == 3:
+            self.win_sound.stop() 
 if __name__ == "__main__":
     test = Sound()
     
@@ -44,5 +50,9 @@ if __name__ == "__main__":
     test.stop_sound(1)
     time.sleep(2)
     test.play_sound(2)
-    time.sleep(10) #just for the test
+    time.sleep(30) #just for the test
     test.stop_sound(2)
+    time.sleep(2)
+    test.play_sound(3)
+    time.sleep(10) #just for the test
+    test.stop_sound(3)
