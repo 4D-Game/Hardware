@@ -15,11 +15,12 @@ The table below contains list of the electronics components for building the gam
 |Servo motor HS-40 Economy nano servo| Movement of the turrets above and below,right and left |Turrets |12 |
 |DollaTek 24 Bits WS2812 5050 RGB LED Ring| Show points and game status|Turrets| 6 |
 |Display 2.8 TFT SPI 240x320 ILI9341| Show match status and team scores | Displays|2|
-|Stepper motor | Tilt central tower  |Tower|2|
+|Stepper motor 28BYJ48 12V bipolar | Moves central tower  |Tower|2|
 |Winfred Micro Switches with Roller Lever 3 Pins |End stopper |Tower|2|
 |Adafruit DC & Stepper Motor HAT for Raspberry Pi| Control Stepper motors direction and speed   |Tower |1 |
 |Gamepad  | Bosi Wireless Gamepad GXT 590|| 6|
 |Raspberry Pi 3 Model B| Gamecontrol/Controller/Displaycontrol | |8|
+|Renkforce Soundkarte| sound effects |Display |1|
 
 
 ## Mechanical components 

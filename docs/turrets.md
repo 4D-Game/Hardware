@@ -1,16 +1,18 @@
 
-### Task
+## Turrets
 The turrets are controlled by the player. They are used to "shoot" the "comets". In the current setup six turrets are used. 
 
-![](pictures/turretV4.jpg)
+![](assets/turrets1.jpeg)
 
+![](assets/turrets2.jpeg)
 
+![](assets/turrets3.jpeg)
 
 ## Construction
 
 ### Functionality
 
-The model used for implementing the turrets was found on Thingiverse. We choosed this model because the design went very well with our initial game idea and the fundamental movements (Horizontal and vertical rotation of the aiming part) were given. As said, the main technical functionality of this Prototype is to rotate horizontal and vertical in order ot give the player a good aiming experience. One is placed below the base of the turret. The other is placed on the right side of the top element. In order to detect if the player hit the comet a IR-Sensor is used. The model which is used returns a binary signal. The sensitivity can be tuned with a screw on the back of the sensor. But for further usage of this model we needed to adapt and add a few things.
+The model used for implementing the turrets was found on Thingiverse. We choosed this model because the design went very well with our initial game idea and the fundamental movements (Horizontal and vertical rotation of the aiming part) were given. As said, the main technical functionality of this Prototype is to rotate horizontal and vertical in order ot give the player a good aiming experience. One is placed below the base of the turret. The other is placed on the right side of the top element. In order to detect if the player hit the comet a IR-Sensor is used. The model which is used returns a digital signal. The sensitivity can be tuned with a screw on the back of the sensor. But for further usage of this model we needed to adapt and add a few things.
 
 ### Previous Prototypes
 
