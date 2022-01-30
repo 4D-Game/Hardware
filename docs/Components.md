@@ -26,8 +26,8 @@ The table below contains list of the electronics components for building the gam
 ## Mechanical components 
 | Component | Function | Part | Quantity |
 | --------------- | --------------- | --------------- |--------------- |
-| M3*16| attach turret to groundplane| | 36|
-| M3 Nuts| secure right and left bearing half | |36|
-| M3 Washers| | |36|
-| M3*8| attach right and left bearing half | |36|
-| M3*8.1| threaded insert for basemount| |24| 
+| M3*16| attach turret to groundplane|Turrets| 36|
+| M3 Nuts| secure right and left bearing half |Turrets|36|
+| M3*8| attach right and left bearing half |Turrets|36|
+| M3*8.1| threaded insert for basemount|Turrets|24| 
+| M6*20| attach tower to groundplane|Tower|4| 
