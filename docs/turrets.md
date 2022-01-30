@@ -47,7 +47,7 @@ This model was not configured for our Servo Motors. Therefore, every 3D-Model th
 ![Turrets finished](3D_models/Turret/turret_final.png)
 
 ### CAD Model of the turret
-![CAD Model Turret](3D_models/Turret/turret_final_cad.pdf)
+The CAD Model of the turret can be found [here](3D_models/Turret/turret_final_cad.pdf)
 
 ## Technical characteristics
 
