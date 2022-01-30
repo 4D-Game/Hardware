@@ -46,6 +46,9 @@ This model was not configured for our Servo Motors. Therefore, every 3D-Model th
 ### Final 3D Model of the turret
 ![Turrets finished](3D_models/Turret/turret_final.png)
 
+### CAD Model of the turret
+![CAD Model Turret](3D_models/Turret/turret_final_cad.pdf)
+
 ## Technical characteristics
 
 ### Circuit (connection ot Raspberry-Pi)
@@ -67,7 +70,7 @@ For a list of all used components see the [Components](Components.md) section.
 
 ## Further information's
 
-All 3D-Models were done with Fusion360, they can be found [here](3D_models/Tower).
+All 3D-Models were done with Fusion360, which can be found [here](3D_models/Tower).
 For more information's about controlling the turrets via controller and software solutions please look [here](4D_Game/Controller/docs/code-references/controls/turrets.md).
 
 
