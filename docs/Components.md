@@ -33,5 +33,5 @@ The table below contains list of the electronics components for building the gam
 | M2*8| attach pyhsical limitation to tower|Tower|4| 
 | Coupling| flexible coupling for to transfer rotation to the tower|Tower|1| 
 | M6*20| attach tower to groundplane|Tower|4|
-| Deep groove ball bearing SKF 607-2RSH| connects end bearing with turret_top|Tower|6|
+| Deep groove ball bearing SKF 607-2RSH| connects end bearing with turret_top|Turrets|6|
 | Deep groove ball bearing SKF 6000| connection for the vertical tilt|Tower|2|
