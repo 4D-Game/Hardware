@@ -23,6 +23,10 @@ The arm rotates in a circle during the game.
 
 ![Middle Tower](3D_models/Tower/middle_Tower_png.png)
 
+### CAD-Model of middle Tower
+
+The CAD-Model of the Tower can be found [here](3D_models/Tower/middle_Tower_Zeichnung.pdf)
+
 ### Circuit (connection to Raspberry Pi)
 
 ![Middle Tower circuit](circuit/middle_tower1.png)
@@ -36,6 +40,6 @@ For a list of all used components see the [Components](Components.md) section.
 
 ## Further informations
 
-All 3D-Models were done with Fusion360.
+All 3D-Models were done with Fusion360 and can be found [here](3D_models/Tower).
 For informations about controlling the turrets via controller and software solutions please look here
 
