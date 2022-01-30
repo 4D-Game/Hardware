@@ -13,7 +13,7 @@ The tower is the central element of the playing field. It is used to move the co
 
 The tower consists of a base and an arm with a comet at each end. The arm can be rotated horizontally and tilted vertically. Both motions are created with a stepper motor. The stepper motors are controlled with the Raspberry Pi using a Adafruit Motor Shield. In order to avoid too far tilting to the right and to the left, 2 end stoppers and physical limitation are built in.
 
-(machanical aufbau)
+(mechanical aufbau)
 ## Technical characteristics
 
 The arm can be tilted vertically +-16° right/left max.
@@ -21,7 +21,7 @@ The arm rotates in a circle during the game.
 
 ### Adapted 3D-Model of middle Tower
 
-![Middle Tower](3D_models/TumV01.png)
+![Middle Tower](3D_models/Tower/middle_Tower_png.png)
 
 ### Circuit (connection to Raspberry Pi)
 
