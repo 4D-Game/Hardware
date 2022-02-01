@@ -8,7 +8,6 @@ The tower is the central element of the playing field. It is used to move the co
 ![View from the side](assets/tower1.jpeg)
 
 
-
 ## Functionality
 
 The tower consists of a base and an arm with a comet at each end. The arm can be rotated horizontally and tilted vertically. Both motions are created with a stepper motor. The stepper motors are controlled with the Raspberry Pi using a Adafruit Motor Shield. In order to avoid too far tilting to the right and to the left, 2 end stoppers and physical limitation are built in. 
@@ -41,8 +40,8 @@ For the connection between motors, motorshield to Raspberry Pi see [here](https:
 
 For a list of all used components see the [Components](Components.md) section.
 
-## Further informations
+## Further information
 
 All 3D-Models were done with Fusion360.
-For informations about controlling the turrets via controller and software solutions please look here
+For information about controlling the turrets via controller and software solutions please look here
 
