@@ -3,17 +3,17 @@ site_url: https://4d-game.github.io/Hardware
 
 nav:
   - Home: https://4d-game.github.io
-  - Coding Style: https://4d-game.github.io/coding-style/cpp/
+  - Working on this Project: https://4d-game.github.io/game_concept/
   - Game Code:
       - Controller: https://4d-game.github.io/Controller/
       - Gamecontrol: https://4d-game.github.io/Gamecontrol/
-  - SDK: https://4d-game.github.io/sdk/
-  - Hardware:
+  - Game Hardware:
       - Overview: index.md
       - Tower: tower.md
       - Turrets: turrets.md
       - Displays: display.md
       - Components: components.md
+  - SDK: https://4d-game.github.io/sdk/
 
 repo_url: https://github.com/4D-Game/Hardware
 repo_name: '4D-Game/Hardware'
