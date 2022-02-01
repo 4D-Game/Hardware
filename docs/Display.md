@@ -1,6 +1,6 @@
 ## Display and Sound module
 
-The name of the teams and the points of every team as well as the winner would be shown on a display. Each successful hit would be marked by sound effect.During the game melody  https://freesound.org/people/SSS_Samples/sounds/360906/ and at the end melody https://freesound.org/people/LittleRobotSoundFactory/sounds/270402/ would be played.
+The name of the teams and the points of every team as well as the winner would be shown on a display. Each successful hit would be marked by sound effect.During the game melody [Awakening Game Polychord phase](https://freesound.org/people/SSS_Samples/sounds/360906/) and at the end melody [Jingle_Win_00](https://freesound.org/people/LittleRobotSoundFactory/sounds/270402/) would be played.
 
 ![Display](assets/display1.jpeg)
 
@@ -11,7 +11,7 @@ The name of the teams and the points of every team as well as the winner would b
 
 The display are controlled by the Raspberry Pi. For this game two 2.2 TFT SPI 240x320  displays are used. Both displays are connected to the Raspberry Pi via Y-Cables. For the usage of the USB sound-card, this card must be connected directly to the USB port Raspberry Pi. Loudspeaker must to be connected to sound card with 3.5 mm jack plugs. Every Sound-effect used in this game were taken from https://freesound.org/. For the mounting of the displays
 
-For informations about software characteristics and controlling look here.
+For information about software characteristics and controlling look here.
 
 ## Technical characteristics
 
@@ -38,9 +38,9 @@ For informations about software characteristics and controlling look here.
 
 ## Components
 
-For a list of all used components see the [Components](Components.md) section.
+For a list of all used components see the [components](Components.md) section.
 
 ## Further informations
 
 All 3D-Models were done with Fusion360 and can be found [here](3D_models/Display).
-For informations about software characteristics and controlling look here.
+For information about software characteristics and controlling look here.

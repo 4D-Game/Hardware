@@ -1,5 +1,5 @@
 
-## Tower
+# Tower
 
 The tower is the central element of the playing field. It is used to move the comets around the playing field so every player has a chance to hit them.
 
@@ -20,8 +20,6 @@ The tower consists of a base and an arm with a comet at each end. The arm can be
 | Side stepper motor | Tilting the tower |  +-16° right/left max |
 | Top stepper motor | Arm rotation | Circular movement |
 
-The arm can be tilted vertically +-16° right/left max.
-The arm rotates in a circle during the game.
 
 ### Adapted 3D-Model of middle Tower
 
@@ -33,12 +31,12 @@ The arm rotates in a circle during the game.
 
 ![Middle Tower circuit](circuit/middle_tower1.png)
 
-For the connection between motors, motorshield to Raspberry Pi see [here](https://learn.adafruit.com/adafruit-dc-and-stepper-motor-hat-for-raspberry-pi/stacking-hats)
+For the connection between motors, motor shield to Raspberry Pi see [here](https://learn.adafruit.com/adafruit-dc-and-stepper-motor-hat-for-raspberry-pi/stacking-hats)
 
 
 ## Components
 
-For a list of all used components see the [Components](Components.md) section.
+For a list of all used components see the [components](Components.md) section.
 
 ## Further information
 
