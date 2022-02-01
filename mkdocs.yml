@@ -13,7 +13,6 @@ nav:
       - Tower: tower.md
       - Turrets: turrets.md
       - Displays: display.md
-      - Base Plate: baseplate.md
       - Components: components.md
 
 repo_url: https://github.com/4D-Game/Hardware
@@ -22,8 +21,8 @@ repo_name: '4D-Game/Hardware'
 theme:
   name: material
   language: en
-  logo: assets/logo.png
-  favicon: assets/logo.png
+  logo: pictures/logo.png
+  favicon: pictures/logo.png
   features:
     - navigation.tabs
     - navigation.top
