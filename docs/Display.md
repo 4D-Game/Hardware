@@ -42,5 +42,5 @@ For a list of all used components see the [Components](Components.md) section.
 
 ## Further informations
 
-All 3D-Models were done with Fusion360.
+All 3D-Models were done with Fusion360 and can be found [here](3D_models/Display).
 For informations about software characteristics and controlling look here.
