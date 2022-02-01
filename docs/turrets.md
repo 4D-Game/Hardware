@@ -60,7 +60,7 @@ This model was not configured for our Servo Motors. Therefore, every 3D-Model th
 
 ## Components
 
-For a list of all used components see the [components](Components.md) section.
+For a list of all used components see the [components](components.md) section.
 
 ## Further information's
 
