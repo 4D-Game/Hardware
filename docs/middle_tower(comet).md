@@ -7,14 +7,19 @@ The tower is the central element of the playing field. It is used to move the co
 
 ![View from the side](assets/tower1.jpeg)
 
-## Construction
 
-### Functionality
 
-The tower consists of a base and an arm with a comet at each end. The arm can be rotated horizontally and tilted vertically. Both motions are created with a stepper motor. The stepper motors are controlled with the Raspberry Pi using a Adafruit Motor Shield. In order to avoid too far tilting to the right and to the left, 2 end stoppers and physical limitation are built in.
+## Functionality
 
-(mechanical construction)
+The tower consists of a base and an arm with a comet at each end. The arm can be rotated horizontally and tilted vertically. Both motions are created with a stepper motor. The stepper motors are controlled with the Raspberry Pi using a Adafruit Motor Shield. In order to avoid too far tilting to the right and to the left, 2 end stoppers and physical limitation are built in. 
+
 ## Technical characteristics
+
+
+| Mechanical Device | Action |  State |
+| --------------- | --------------- | --------------- |
+| Side stepper motor | Tilting the tower |  +-16° right/left max |
+| Top stepper motor | Arm rotation | Circular movement |
 
 The arm can be tilted vertically +-16° right/left max.
 The arm rotates in a circle during the game.
@@ -23,9 +28,7 @@ The arm rotates in a circle during the game.
 
 ![Middle Tower](3D_models/Tower/middle_Tower_png.png)
 
-### CAD-Model of middle Tower
-
-The CAD-Model of the Tower can be found [here](3D_models/Tower/middle_Tower_Zeichnung.pdf)
+![Middle Tower](assets/middle_Tower_Zeichnung1.png)
 
 ### Circuit (connection to Raspberry Pi)
 
@@ -40,6 +43,6 @@ For a list of all used components see the [Components](Components.md) section.
 
 ## Further informations
 
-All 3D-Models were done with Fusion360 and can be found [here](3D_models/Tower).
+All 3D-Models were done with Fusion360.
 For informations about controlling the turrets via controller and software solutions please look here
 

@@ -21,6 +21,7 @@ The table below contains list of the electronics components for building the gam
 |Gamepad  | Bosi Wireless Gamepad GXT 590|| 6|
 |Raspberry Pi 3 Model B| Gamecontrol/Controller/Displaycontrol | |8|
 |Renkforce Soundkarte| sound effects |Display |1|
+|Power supply 5V 10A| power supply for Raspberry Pi  | |1|
 
 
 ## Mechanical components 
