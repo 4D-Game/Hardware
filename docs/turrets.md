@@ -3,9 +3,7 @@
 
 The turrets are controlled by the player. They are used to "shoot" the comets. In the current setup six turrets are used.
 
-![Turret top view](pictures/turret_top.jpeg){ align=left width="355" }
-![Turret front view](pictures/turret_front.jpeg){ align=right width="295" }
-![Turret side view](pictures/turret_left.jpeg){ align=right width="295" }
+![Turret from different views](pictures/turret.png)
 
 
 ## Construction
@@ -16,16 +14,7 @@ The model used for implementing the turrets was found on Thingiverse[^1]. We cho
 
 ### Adapted 3D-Models of turrets
 
-![CAD model of the turret base](models/turrets/base.png){ align=left width="210" }
-![CAD model of the turret base mount](models/turrets/base_mount.png){ align=left width="210" }
-![CAD model of the left bearing](models/turrets/end_bearing.png){ align=left width="210" }
-![CAD model of the blaster arm](models/turrets/blaster_arm.png){ align=left width="210" }
-![CAD model of the right base](models/turrets/left_right_bearing_half.png){ align=left width="210" }
-![CAD model of the servo mount](models/turrets/vertical_servo_mount.png){ align=left width="210" }
-![CAD model of the turret leg](models/turrets/leg.png){ align=left width="210" }
-![CAD model of the top part](models/turrets/turret_top.png){ align=left width="210" }
-![CAD model of the whole turret](models/turrets/full_turret.png){ align=left width="210" }
-
+![CAD models of all turret parts](models/turrets/turret_models_grid.png)
 ### Adaptations
 
 This model was not configured for our servo motors. Therefore, every part of the model connected to the motor needed to be changed. In addition the Blaster Model was created.
@@ -38,7 +27,7 @@ This model was not configured for our servo motors. Therefore, every part of the
 
 ![CAD model of the turret](models/turrets/turret_final.png)
 
-![CAD Sketch of the turret](models/turrets/turret_final_sketch.pdf)
+![CAD Sketch of the turret](models/turrets/turret_final_sketch.png)
 
 ## Technical characteristics
 
