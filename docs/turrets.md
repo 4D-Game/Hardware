@@ -10,20 +10,32 @@ The turrets are controlled by the player. They are used to "shoot" the comets. I
 
 ### Functionality
 
-The model used for implementing the turrets was found on Thingiverse[^1]. We chose this model because the design went very well with our initial game idea and the fundamental movements (Horizontal and vertical rotation of the aiming part) were given. As said, the main technical functionality of this Prototype is to rotate horizontal and vertical in order ot give the player a good aiming experience. One is placed below the base of the turret. The other is placed on the right side of the top element. In order to detect if the player hit the comet a IR-Sensor is used. The model which is used returns a digital signal. The sensitivity can be tuned with a screw on the back of the sensor.Horizontal rotation of the aiming part would be indicated with the help of an RGB NEOPIXEL LED ring.
+The model used for implementing the turrets was found on Thingiverse[^1]. We
+chose this model because the design went very well with our initial game idea
+and the fundamental movements (Horizontal and vertical rotation of the aiming
+part) were given. As said, the main technical functionality of this Prototype
+is to rotate horizontal and vertical in order ot give the player a good aiming
+experience. One is placed below the base of the turret. The other is placed on
+the right side of the top element. In order to detect if the player hit the
+comet, a IR-Sensor is used. The model which is used returns a digital signal.
+The sensitivity can be tuned with a screw on the back of the sensor.Horizontal
+rotation of the aiming part would be indicated with the help of an RGB
+NEOPIXEL LED ring.
 
 ### Adapted 3D-Models of turrets
 
 ![CAD models of all turret parts](models/turrets/turret_models_grid.png)
 ### Adaptations
 
-This model was not configured for our servo motors. Therefore, every part of the model connected to the motor needed to be changed. In addition the Blaster Model was created.
-
-- Base: New configuration of the middle part. Adapted to fit our servo motor.
+This model was not configured for our servo motors. Therefore, every part of
+the model connected to the motor needed to be changed. In addition, the
+Blaster Model was created.
+- Base: New configuration of the middle part, adapted to fit our servo motor.
 - Base_mount: Creating a little motor winding to fit in the base mount.
-- Servo_bracket: Adapting the servo bracket to fit our servo motor
-- Turret_legs: Added holes for mounting the Turret to the Base plate
-- Blaster: New Model which held the Laser sensor, In addition two led's are used to display if the player shot (white) and if he hit (green). Both led's are positioned at the tip of the barrel of the turret.
+- Servo_bracket: Adapting the servo bracket to fit our servo motor.
+- Turret_legs: Added holes for mounting the Turret to the Base plate.
+- Blaster: New Model which held the Laser sensor, In addition, two LEDs are
+used to display if the player shot (white) and if he hit (green). Both LEDs are positioned at the tip of the barrel of the turret.
 
 ![CAD model of the turret](models/turrets/turret_final.png)
 
